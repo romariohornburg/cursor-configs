@@ -31,7 +31,7 @@ Whenever there is a conflict between these rules and a language-specific formatt
   - Test names and descriptions.
   - Configuration and code-level documentation.
 
-- User-facing text (UI labels, emails, push notifications, etc.) may be in the product’s target language(s), but:
+- User-facing text (UI labels, emails, push notifications, etc.) may be in the product's target language(s), but:
   - Keep translation keys and comments in **English**.
   - Avoid mixing languages in the same file unless it is clearly intentional (e.g. translation files).
 
@@ -77,7 +77,7 @@ Unless otherwise required by language idioms:
 
 ### 3.2. General rules
 
-- Indentation: use **spaces** (no tabs), following the project’s configuration (typically 2 or 4 spaces).
+- Indentation: use **spaces** (no tabs), following the project's configuration (typically 2 or 4 spaces).
 - Line length: keep lines reasonably short (e.g. 100–120 chars max). Break long expressions into multiple lines.
 - Remove unused imports, variables and functions.
 - One top-level abstraction/concept per file where possible:
@@ -100,10 +100,10 @@ Unless otherwise required by language idioms:
 
 ### 4.2. Style
 
-- Write comments in **English** and in full sentences when explaining “why”.
+- Write comments in **English** and in full sentences when explaining "why".
 - Use structured comments/docstrings for public APIs:
   - Backend: document public methods and endpoints.
-  - Frontend: document components’ expected props and side-effects (when not obvious).
+  - Frontend: document components' expected props and side-effects (when not obvious).
 
 ### 4.3. TODO / FIXME / NOTE
 
@@ -209,7 +209,7 @@ These are still part of the global standard but apply more to frontend code:
 - Do not place complex business rules inside UI components.
   - Move them to hooks/services/state modules.
 - Keep components focused:
-  - Prefer small, composable components over “god components”.
+  - Prefer small, composable components over "god components".
 - Avoid inline object/function definitions in JSX when they cause unnecessary re-renders; extract them when it improves readability and performance.
 - Prefer declarative logic and framework idioms (React hooks, etc.) over imperative DOM manipulation.
 

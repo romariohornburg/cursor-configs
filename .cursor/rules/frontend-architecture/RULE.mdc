@@ -79,7 +79,7 @@ Rules:
 - Consistent table, form, layout primitives
 - Predictable placement of primary actions
 - Clear empty states + loading states
-- Reuse patterns to make de code feel cohesive
+- Reuse patterns to make the code feel cohesive
 
 ## 7. Forms, validation & errors
 
@@ -134,7 +134,7 @@ Rules:
 
 Rules:
 - Components must be small and focused on a single responsibility.
-- Avoid “God Components” that handle data fetching + business logic + rendering + layout at the same time.
+- Avoid "God Components" that handle data fetching + business logic + rendering + layout at the same time.
 - Prefer composing multiple small components rather than one large one.
 - Component files should generally be short and readable. When a component grows beyond ~150–200 LOC (not strict), evaluate if splitting is possible.
 - Presentation (UI) and container (logic) concerns should be separated when beneficial.
