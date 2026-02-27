@@ -1,0 +1,2 @@
+# cursor-configs
+cursor-configs
